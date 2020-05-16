@@ -99,3 +99,20 @@ console.log(num1 === num2) // так как === проверяет по типу
 
 
 /********8 ФУНКЦИИ************/
+/* function calcAge(year) {
+  return 2020 - year
+}
+
+/* console.log(calcAge(1993))  */
+// композиции из функций
+
+/*function infoAbout(name, year){
+  let age = calcAge(year);
+  age>0?console.log("Имя персоны - ", name, age): console.log("что-то")
+}
+
+infoAbout("Maxo", 2010) */
+
+
+/********9 Массивы************/
+
