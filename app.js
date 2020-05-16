@@ -36,12 +36,66 @@
 //console.log(++currentYear) // вот тут вот еще выведется 2020 - попорядку - вывели новое значение, а после вывели
 //console.log(currentYear) // 2021
 
-/********3 ТИПЫ ДАННЫХ************/
+/********4 ТИПЫ ДАННЫХ************/
+// примитивы string, number, boolean, undefined, null
 
-const isProgrammer = true
+/* const isProgrammer = true
 const name = "Maxim"
 const age = 26
-
+let x
 console.log(typeof isProgrammer)
 console.log(typeof name)
 console.log(typeof age)
+console.log(typeof x)
+console.log(typeof null) // => object - bug */
+
+
+
+/********5 ПРИОРИТЕТ ОПЕРАЦИЙ************/
+/* const fullAge = 35
+const birth = 1985
+const currentYear = 2020
+
+// > < >= <=
+//()- приоритет самый высокий 20 баллов => mdn приоритет операторов
+// <== - приоритет 11, +- - приоритет 13
+const isFullAge = currentYear - birth >= fullAge */
+
+
+
+/********6 УСЛОВНЫЕ ОПЕРАТОРЫ************/
+/*const coursStatus = 'pending'
+
+ if (coursStatus === 'ready') {
+  console.log('курс уже готов и его можно проходить')
+} else if (coursStatus === 'pending') {
+  console.log('курс только разрабатывается')
+} else {
+  console.log('курс не получился')
+} */
+
+//const isReady = true
+
+/* if(isReady) {
+  console.log("все готово")
+} */
+
+//вместо if используются тернарные выражения, : - это else
+//isReady ? console.log(""):
+
+/* const num1 = 42
+const num2 = '42'
+console.log(num1 == num2) // так как == то приводится все к одному типу данных - в данном случае к строке
+console.log(num1 === num2) // так как === проверяет по типу */
+
+
+
+/********7 БУЛЕВАЯ ЛОГИКА************/
+// || && - возвращают последний, если всё условие правда
+// || - запинается на правде. Будет перебирать все, пока не встретить правду
+// && - запинается на лжи. Будет перебирать все, пока не встретить ложь
+
+// !true === false, !!true === true
+
+
+/********8 ФУНКЦИИ************/
