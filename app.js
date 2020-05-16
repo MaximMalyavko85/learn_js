@@ -130,5 +130,5 @@ console.log(cars.length) */
 } */
 
 /* for (let car of cars){
-  console.log(car)
+  console.log(car) 
 } */
