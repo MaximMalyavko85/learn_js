@@ -114,5 +114,16 @@ console.log(num1 === num2) // так как === проверяет по типу
 infoAbout("Maxo", 2010) */
 
 
-/********9 Массивы************/
+/********9 МАССИВЫ************/
+const cars = ["Mazda", "VW", "Ford"]
+//const cars = new Array("Mazda", "VW", "Ford") - вот так не стоит
+/* cars[0] = "Porshe"
+cars[cars.length] = "Mazda"
+console.log(cars)
+console.log(cars[1])
+console.log(cars.length) */
+
+
+/********9 ЦИКЛЫ************/
+
 
