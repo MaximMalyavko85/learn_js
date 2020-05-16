@@ -115,7 +115,7 @@ infoAbout("Maxo", 2010) */
 
 
 /********9 МАССИВЫ************/
-const cars = ["Mazda", "VW", "Ford"]
+//const cars = ["Mazda", "VW", "Ford"]
 //const cars = new Array("Mazda", "VW", "Ford") - вот так не стоит
 /* cars[0] = "Porshe"
 cars[cars.length] = "Mazda"
@@ -124,7 +124,7 @@ console.log(cars[1])
 console.log(cars.length) */
 
 
-/********9 ЦИКЛЫ************/
+/********10 ЦИКЛЫ************/
 /* for (let i = 0; i < cars.length; i++) {
   console.log(cars[i])
 } */
@@ -132,3 +132,26 @@ console.log(cars.length) */
 /* for (let car of cars){
   console.log(car) 
 } */
+
+
+/********11 ОБЬЕКТЫ************/
+// на них все устроено
+//const person  = new Object(); // так можно, но не нужно
+/* const person = {
+  firstName: "Maxim",
+  lastName: "Maluavko",
+  year: 1993,
+  languages: ["RU", "EN", "Du"],
+  isProgramer: false,
+  greet: function () { console.log("GREET") }
+}
+
+
+//console.log(person.firstName)
+//console.log(person['lastName'])
+let key = 'languages'
+//console.log(person[key])
+person.isProgramer = true
+person.isWife = true    // add new property
+person.greet()
+console.log(person) */
