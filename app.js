@@ -37,3 +37,26 @@ console.log(+(0.4 + 0.2).toFixed(1)) */
 console.log(parseInt(10n) - 4) // преобразовать
 console.log(10n - BigInt(4)) // преобразовать
 console.log(5n / 2n) // 2.5 - отсекается дробная = 2 */
+
+
+/********MATH*********/
+//взаимодействие с различными математическими операциями.
+/* console.log(Math.E)
+console.log(Math.PI)
+console.log(Math.sqrt(25)) // корень
+console.log(Math.pow(5, 3)) // степень
+console.log(Math.abs(-42)) // 42 - отсекаем негативную часть и забираем модуль
+console.log(Math.max(422, 12, 33, 1, 5)) // 42- определяет максимальное из списка
+console.log(Math.min(42, 12, 33, 1, 5)) // 42- определяет минимальное из списка
+console.log(Math.floor(42.3)) // округляет всегда в меньшую сторону 4.9 === 4
+console.log(Math.ceil(42.3)) // округляет всегда в большую сторону 4.9 === 4
+console.log(Math.round(42.3))  // к ближайшему целому
+console.log(Math.trunc(42.3))  // просто обрезает дробную */
+
+//Example
+function getRenderBetween(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min)
+}
+
+
+console.log(getRenderBetween(10, 42))
